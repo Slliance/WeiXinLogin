@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "WXApi.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *login;
+- (IBAction)Login:(id)sender;
 
 @end
 
@@ -24,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Login:(id)sender {
+    
+    SendAuthReq* req =[[SendAuthReq alloc ] init];
+    req.scope = @"snsapi_userinfo";
+    req.state = @"mimiss";
+    [WXApi sendReq:req];
+}
 @end
