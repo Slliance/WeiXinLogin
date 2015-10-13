@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 
-#define kWeiXinAppId               @"wx83cc02790df41a2b"  //APPID
-#define kWeiXinAppSecret           @"10705c12e1893616604729846cae57ea" //appsecret
+#define kWeiXinAppId               @"XXXXXXXXXXXXXX"  //APPID
+#define kWeiXinAppSecret           @"XXXXXXXXXXXXXXXXX" //appsecret
 #define kWeiXinAccessToken         @"WeiXinAccessToken"
 #define kWeiXinOpenId              @"WeiXinOpenId"
 #define kWeiXinRefreshToken        @"WeiXinRefreshToken"
