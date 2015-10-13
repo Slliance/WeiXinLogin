@@ -171,7 +171,7 @@
 		2310826E1BCA73E800AE46FE /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		2310826F1BCA73E800AE46FE /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		231082701BCA73E800AE46FE /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		231A6A121BC9939000FF360E /* MIke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231A6A121BC9939000FF360E /* WeiXInLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiXInLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		231A6A161BC9939000FF360E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		231A6A181BC9939000FF360E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		231A6A191BC9939000FF360E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -182,10 +182,10 @@
 		231A6A241BC9939000FF360E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		231A6A271BC9939000FF360E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		231A6A291BC9939000FF360E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		231A6A2E1BC9939000FF360E /* MIke.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIke.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		231A6A2E1BC9939000FF360E /* WeiXInLogin.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiXInLogin.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		231A6A321BC9939000FF360E /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
 		231A6A341BC9939000FF360E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		231A6A391BC9939000FF360E /* MIke.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIke.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		231A6A391BC9939000FF360E /* WeiXInLogin.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiXInLogin.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		231A6A3D1BC9939000FF360E /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		231A6A3F1BC9939000FF360E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		231A6A4C1BC993BF00FF360E /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWechat.a; sourceTree = "<group>"; };
@@ -361,9 +361,9 @@
 		231A6A131BC9939000FF360E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				231A6A121BC9939000FF360E /* MIke.app */,
-				231A6A2E1BC9939000FF360E /* MIke.xctest */,
-				231A6A391BC9939000FF360E /* MIke.xctest */,
+				231A6A121BC9939000FF360E /* WeiXInLogin.app */,
+				231A6A2E1BC9939000FF360E /* WeiXInLogin.xctest */,
+				231A6A391BC9939000FF360E /* WeiXInLogin.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -439,9 +439,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		231A6A111BC9939000FF360E /* MIke */ = {
+		231A6A111BC9939000FF360E /* WeiXInLogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 231A6A421BC9939000FF360E /* Build configuration list for PBXNativeTarget "MIke" */;
+			buildConfigurationList = 231A6A421BC9939000FF360E /* Build configuration list for PBXNativeTarget "WeiXInLogin" */;
 			buildPhases = (
 				231A6A0E1BC9939000FF360E /* Sources */,
 				231A6A0F1BC9939000FF360E /* Frameworks */,
@@ -451,14 +451,14 @@
 			);
 			dependencies = (
 			);
-			name = MIke;
+			name = WeiXInLogin;
 			productName = Demo;
-			productReference = 231A6A121BC9939000FF360E /* MIke.app */;
+			productReference = 231A6A121BC9939000FF360E /* WeiXInLogin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		231A6A2D1BC9939000FF360E /* MIkeTests */ = {
+		231A6A2D1BC9939000FF360E /* WeiXInLoginTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 231A6A451BC9939000FF360E /* Build configuration list for PBXNativeTarget "MIkeTests" */;
+			buildConfigurationList = 231A6A451BC9939000FF360E /* Build configuration list for PBXNativeTarget "WeiXInLoginTests" */;
 			buildPhases = (
 				231A6A2A1BC9939000FF360E /* Sources */,
 				231A6A2B1BC9939000FF360E /* Frameworks */,
@@ -469,14 +469,14 @@
 			dependencies = (
 				231A6A301BC9939000FF360E /* PBXTargetDependency */,
 			);
-			name = MIkeTests;
+			name = WeiXInLoginTests;
 			productName = DemoTests;
-			productReference = 231A6A2E1BC9939000FF360E /* MIke.xctest */;
+			productReference = 231A6A2E1BC9939000FF360E /* WeiXInLogin.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		231A6A381BC9939000FF360E /* MIkeUITests */ = {
+		231A6A381BC9939000FF360E /* WeiXInLoginUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 231A6A481BC9939000FF360E /* Build configuration list for PBXNativeTarget "MIkeUITests" */;
+			buildConfigurationList = 231A6A481BC9939000FF360E /* Build configuration list for PBXNativeTarget "WeiXInLoginUITests" */;
 			buildPhases = (
 				231A6A351BC9939000FF360E /* Sources */,
 				231A6A361BC9939000FF360E /* Frameworks */,
@@ -487,9 +487,9 @@
 			dependencies = (
 				231A6A3B1BC9939000FF360E /* PBXTargetDependency */,
 			);
-			name = MIkeUITests;
+			name = WeiXInLoginUITests;
 			productName = DemoUITests;
-			productReference = 231A6A391BC9939000FF360E /* MIke.xctest */;
+			productReference = 231A6A391BC9939000FF360E /* WeiXInLogin.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -515,7 +515,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 231A6A0D1BC9939000FF360E /* Build configuration list for PBXProject "MIke" */;
+			buildConfigurationList = 231A6A0D1BC9939000FF360E /* Build configuration list for PBXProject "WeiXInLogin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -528,9 +528,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				231A6A111BC9939000FF360E /* MIke */,
-				231A6A2D1BC9939000FF360E /* MIkeTests */,
-				231A6A381BC9939000FF360E /* MIkeUITests */,
+				231A6A111BC9939000FF360E /* WeiXInLogin */,
+				231A6A2D1BC9939000FF360E /* WeiXInLoginTests */,
+				231A6A381BC9939000FF360E /* WeiXInLoginUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -636,12 +636,12 @@
 /* Begin PBXTargetDependency section */
 		231A6A301BC9939000FF360E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 231A6A111BC9939000FF360E /* MIke */;
+			target = 231A6A111BC9939000FF360E /* WeiXInLogin */;
 			targetProxy = 231A6A2F1BC9939000FF360E /* PBXContainerItemProxy */;
 		};
 		231A6A3B1BC9939000FF360E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 231A6A111BC9939000FF360E /* MIke */;
+			target = 231A6A111BC9939000FF360E /* WeiXInLogin */;
 			targetProxy = 231A6A3A1BC9939000FF360E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -761,7 +761,7 @@
 					"$(PROJECT_DIR)/Demo/Wechat",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike;
-				PRODUCT_NAME = MIke;
+				PRODUCT_NAME = WeiXInLogin;
 			};
 			name = Debug;
 		};
@@ -778,7 +778,7 @@
 					"$(PROJECT_DIR)/Demo/Wechat",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike;
-				PRODUCT_NAME = MIke;
+				PRODUCT_NAME = WeiXInLogin;
 			};
 			name = Release;
 		};
@@ -789,8 +789,8 @@
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.DemoTests;
-				PRODUCT_NAME = MIke;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIke.app/MIke";
+				PRODUCT_NAME = WeiXInLogin;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiXInLogin.app/WeiXInLogin";
 			};
 			name = Debug;
 		};
@@ -801,8 +801,8 @@
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.DemoTests;
-				PRODUCT_NAME = MIke;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIke.app/MIke";
+				PRODUCT_NAME = WeiXInLogin;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiXInLogin.app/WeiXInLogin";
 			};
 			name = Release;
 		};
@@ -812,7 +812,7 @@
 				INFOPLIST_FILE = DemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.DemoUITests;
-				PRODUCT_NAME = MIke;
+				PRODUCT_NAME = WeiXInLogin;
 				TEST_TARGET_NAME = Demo;
 				USES_XCTRUNNER = YES;
 			};
@@ -824,7 +824,7 @@
 				INFOPLIST_FILE = DemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.DemoUITests;
-				PRODUCT_NAME = MIke;
+				PRODUCT_NAME = WeiXInLogin;
 				TEST_TARGET_NAME = Demo;
 				USES_XCTRUNNER = YES;
 			};
@@ -833,7 +833,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		231A6A0D1BC9939000FF360E /* Build configuration list for PBXProject "MIke" */ = {
+		231A6A0D1BC9939000FF360E /* Build configuration list for PBXProject "WeiXInLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				231A6A401BC9939000FF360E /* Debug */,
@@ -842,7 +842,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		231A6A421BC9939000FF360E /* Build configuration list for PBXNativeTarget "MIke" */ = {
+		231A6A421BC9939000FF360E /* Build configuration list for PBXNativeTarget "WeiXInLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				231A6A431BC9939000FF360E /* Debug */,
@@ -851,7 +851,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		231A6A451BC9939000FF360E /* Build configuration list for PBXNativeTarget "MIkeTests" */ = {
+		231A6A451BC9939000FF360E /* Build configuration list for PBXNativeTarget "WeiXInLoginTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				231A6A461BC9939000FF360E /* Debug */,
@@ -860,7 +860,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		231A6A481BC9939000FF360E /* Build configuration list for PBXNativeTarget "MIkeUITests" */ = {
+		231A6A481BC9939000FF360E /* Build configuration list for PBXNativeTarget "WeiXInLoginUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				231A6A491BC9939000FF360E /* Debug */,

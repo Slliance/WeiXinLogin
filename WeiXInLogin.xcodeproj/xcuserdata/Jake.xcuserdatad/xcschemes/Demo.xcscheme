@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "231A6A111BC9939000FF360E"
                BuildableName = "MIke.app"
-               BlueprintName = "MIke"
-               ReferencedContainer = "container:MIke.xcodeproj">
+               BlueprintName = "WeiXInLogin"
+               ReferencedContainer = "container:WeiXInLogin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "231A6A2D1BC9939000FF360E"
-               BuildableName = "MIke.xctest"
-               BlueprintName = "MIkeTests"
-               ReferencedContainer = "container:MIke.xcodeproj">
+               BuildableName = "WeiXInLogin.xctest"
+               BlueprintName = "WeiXInLoginTests"
+               ReferencedContainer = "container:WeiXInLogin.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "231A6A381BC9939000FF360E"
-               BuildableName = "MIke.xctest"
-               BlueprintName = "MIkeUITests"
-               ReferencedContainer = "container:MIke.xcodeproj">
+               BuildableName = "WeiXInLogin.xctest"
+               BlueprintName = "WeiXInLoginUITests"
+               ReferencedContainer = "container:WeiXInLogin.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,8 +54,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "231A6A111BC9939000FF360E"
             BuildableName = "MIke.app"
-            BlueprintName = "MIke"
-            ReferencedContainer = "container:MIke.xcodeproj">
+            BlueprintName = "WeiXInLogin"
+            ReferencedContainer = "container:WeiXInLogin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -77,8 +77,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "231A6A111BC9939000FF360E"
             BuildableName = "MIke.app"
-            BlueprintName = "MIke"
-            ReferencedContainer = "container:MIke.xcodeproj">
+            BlueprintName = "WeiXInLogin"
+            ReferencedContainer = "container:WeiXInLogin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,8 +96,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "231A6A111BC9939000FF360E"
             BuildableName = "MIke.app"
-            BlueprintName = "MIke"
-            ReferencedContainer = "container:MIke.xcodeproj">
+            BlueprintName = "WeiXInLogin"
+            ReferencedContainer = "container:WeiXInLogin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
